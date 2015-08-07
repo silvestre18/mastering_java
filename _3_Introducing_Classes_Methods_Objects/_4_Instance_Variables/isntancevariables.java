@@ -10,7 +10,7 @@ class instancevariables1
 
 }
 
-class instancevariables1
+class instancevariables
 {
   public static void main(String aa[])
   {
