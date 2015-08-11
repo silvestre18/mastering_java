@@ -111,20 +111,18 @@ class staatic2
   
   
 
-  
-  
   {
-    System.out.println("hui");
+    System.out.println("Second");
   
   }
   static
   {
-    System.out.println("him");
+    System.out.println("First of all");
 
   }
   
   {
-    System.out.println("te");
+    System.out.println("Third");
   
   }
   
