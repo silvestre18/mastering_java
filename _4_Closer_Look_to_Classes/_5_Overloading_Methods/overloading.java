@@ -20,9 +20,9 @@ class overloading1
    
   }
   
-  float method1(int a , int b)
+  short method1(int a , int b)
   {
-    return 2.3f;
+    return 's';
   }
   
   // Change in the type of parameters accepted
@@ -38,21 +38,25 @@ class overloading1
   
   // There can be any kind of confusion
   
-  void method3(int a , double b , char c)
+  void method3(int a , long b , char c)
   {
     System.out.println("jim");
   }
   
-  void method3(int a , long b , char c)
+  void method3(float a , double b , int c)
   {
     System.out.println("Elizabeth");
   }
-  void method3(int a , int b , char c)
+  void method3(double a , float b , int c)
   {
   }
   
   void method4(char a)
-  {}
+  {
+  }
+  
+  
+
 
 }
 
@@ -63,6 +67,11 @@ class overloading
     overloading1 o = new overloading1();
     char c=(short)4;
     o.method3(3 , 3,'+');    // method 3
+
     
-  }
+    
+    
+    
+    
+}
 }
