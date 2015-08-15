@@ -15,6 +15,24 @@ class methods
     System.out.println(sb1.length());         // 15
     System.out.println(sb1.substring(5,9));   // beth
     
+    
+    
+    
+    /*
+    append
+    delete
+    deleteCharAt
+    subSequence
+    toString
+    insert
+    replace
+    reverse
+    
+    */
+    
+    
+    
+    
     // append
     
     System.out.println(sb1.append(" y leonardito")); 
