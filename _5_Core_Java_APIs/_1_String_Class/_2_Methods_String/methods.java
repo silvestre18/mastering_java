@@ -3,6 +3,27 @@ class methods
 {
   public static void main(String a[])
   {
+  
+  /*charAt
+  indexOf
+  lastIndexOf
+  toUpperCase
+  toLowerCase
+  equals
+  equalsIgnoreCase
+  substring
+  startsWith
+  endsWith
+  trim
+  contains
+  replace
+  length
+  compareTo
+  */
+  
+  
+  
+  
     String s1 = "  Elizabeth y jim  ";
     String s2 = "jim";
     
